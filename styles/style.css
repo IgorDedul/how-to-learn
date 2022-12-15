@@ -6,7 +6,7 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;
 }
 
 .header {
@@ -28,4 +28,30 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+.content {
+
+}
+
+.description {
+  margin-top: 100px;
+}
+
+.digits {
+  margin-top: 100px;
+}
+
+.feynman {
+  margin-top: 100px;
+}
+
+.kaufman {
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+.footer {
+  margin-top: 60px;
+  margin-bottom: 40px;
 }
