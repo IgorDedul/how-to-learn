@@ -90,12 +90,55 @@
 }
 
 .content {
-
+  margin-top: 100px;
 }
 
 .description {
-  margin-top: 100px;
+  padding-top: 100px;  
+  display: flex;
+  justify-content: center;
 }
+
+.two-columns {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.two-columns__brief {
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  width: 175px;
+  color: #044cad;
+}
+
+.two-columns__main-text {
+  margin: 0;
+  padding: 0;
+  width: 80%;
+  min-width: 784px;
+}
+
+.two-columns__paragraph {
+  margin: 0 0 20px 0;
+  padding: 0;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.two-columns__span-accent {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  line-height: 34px;
+  font-size: 24px;
+}
+
+
 
 .digits {
   margin-top: 100px;
