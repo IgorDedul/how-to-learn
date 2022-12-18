@@ -32,6 +32,12 @@
   left: 64px;
 }
 
+.logo_place_footer {
+  width: 183px;
+  height: 35px;
+  display: flex;
+}
+
 .header__title {
   margin: 0;
   padding: 0;
@@ -296,9 +302,9 @@
   min-height: 350px;
   box-sizing: border-box;
   padding: 60px 0 40px 0;
-  display: flex;
   justify-content: center;
   background-color: #1f1f1f;
+  display: flex;
 }
 
 .footer__columns {
@@ -313,20 +319,19 @@
 }
 
 .footer__column_content_copyright {
-  flex-basis: 711px;
-  display: flex;
-  flex-direction: column;
   justify-content: space-between;
+  flex-basis: 711px;
 }
 
 .footer__author {
-  margin: 18px 0;
-  padding: 0;
+  margin: 0;
+  padding: 18px 0;
   color: white;
   line-height: 25px;
   font-size: 18px;
-  font-weight: normal;
-  right: 0;
+  font-weight: 400;
+  position: relative;
+  bottom: -200px; /* Костыль */
 }
 
 .footer__column-heading {
