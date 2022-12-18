@@ -87,21 +87,13 @@
   z-index: 0;
 }
 
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-top: 80px;
-  margin-right: 0;
-}
-
 .content {
   margin: 0;
   padding: 0;
 }
 
 .description {
-  padding-top: 100px;  
+  padding-top: 100px;
   display: flex;
   justify-content: center;
 }
