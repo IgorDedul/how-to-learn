@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Проектная работа первого спринта по специальности Веб-разработчик Яндекс Практикум. Как учиться.'">
   <meta name="author" content="Игорь Дедуль">
-  <link rel="stylesheet" href="styles/normalize.css">
   <link rel="stylesheet" href="./pages/index.css">
   <title>Научиться учиться</title>
 </head>
@@ -14,8 +13,8 @@
     <header class="header">
       <img src="./images/logo_place_header.svg" alt="Э" class="logo logo_place_header"/>
       <h1 class="header__title">Научиться учиться</h1>
-      <h2 class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни? <a href="#" class="header__link">Узнать →</a></h2>
-      <img src="./images/header-image.png" alt="Иллюстрация - часть картины Ф.Решётникова Опять двойка" class="header__main-illustration"/>
+      <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни? <a href="#" class="header__link">Узнать →</a></p>
+      <img src="./images/header-image.png" alt="Иллюстрация - часть картины Ф.Решётникова Опять двойка, на которой изображен мальчик с собакой мать и брат." class="header__main-illustration"/>
       <div class="header__square-pic rotation"></div>
     </header>
     <main class="content">
@@ -40,7 +39,7 @@
       <section class="techniques" id="techniques">
         <h2 class="section-title">Техники обучения</h2>
         <p class="section-subtitle">Пять практик от Барбары Оакли</p>
-        <section class="cards">
+        <div class="cards">
           <div class="cards__item">
             <img class="cards__image" src="./images/cards-attention.png" alt="Фотография книги в руках.">
             <h3 class="cards__title">Два вида внимания</h3>
@@ -66,7 +65,7 @@
             <h3 class="cards__title">Иллюзия компетентности</h3>
             <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
           </div>
-        </section>
+        </div>
       </section>
       <section class="video">
         <h2 class="section-title">Видео нa TED</h2>
@@ -197,24 +196,24 @@
         <div class="kaufman__triangle rotation">
         </div>
       </section>
+    
+      <section class="resources">
+        <h2 class="section-title">Полезные ресурсы</h2>
+        <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
+        <ul class="resources__logo-zone">
+          <li><a class="resources__link" href="#" target="_blank" rel="noopener"><img class="resources__logo" src="./images/resources-arzamas.svg" alt="Логотип просветительского проекта 'Арзамас'."></a></li>
+          <li><a class="resources__link" href="#" target="_blank" rel="noopener"><img class="resources__logo" src="./images/resources-n1.svg" alt="Логотип 'Н + 1'."></a></li>
+          <li><a class="resources__link" href="#" target="_blank" rel="noopener"><img class="resources__logo" src="./images/resources-strelka.svg" alt="Логотип образовательного учреждения 'Стрелка'."></a></li>
+          <li><a class="resources__link" href="#" target="_blank" rel="noopener"><img class="resources__logo" src="./images/resources-polka.svg" alt="Логотип образовательного проекта 'Полка'."></a></li>
+        </ul>
+      </section>
     </main>
-
-    <section class="resources">
-      <h2 class="section-title">Полезные ресурсы</h2>
-      <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
-      <ul class="resources__logo-zone">
-        <li><a href="#" target="_blank" rel="noopener"><img class="resources__logo" src="./images/resources-arzamas.svg" alt="Логотип просветительского проекта 'Арзамас'."></a></li>
-        <li><a href="#" target="_blank" rel="noopener"><img class="resources__logo" src="./images/resources-n1.svg" alt="Логотип 'Н + 1'."></a></li>
-        <li><a href="#" target="_blank" rel="noopener"><img class="resources__logo" src="./images/resources-strelka.svg" alt="Логотип образовательного учреждения 'Стрелка'."></a></li>
-        <li><a href="#" target="_blank" rel="noopener"><img class="resources__logo" src="./images/resources-polka.svg" alt="Логотип образовательного проекта 'Полка'."></a></li>
-      </ul>
-    </section>
 
     <footer class="footer">
       <div class="footer__columns">
         <div class="footer__column footer__column_content_copyright">
           <img class="logo logo_place_footer" src="./images/logo_place_footer.svg" alt="Логотип Яндекс Практикум">
-          <p class="footer__author">&copy; 2019. Виктор Абанькин</p>
+          <p class="footer__author">&copy; 2023. Игорь Дедуль</p>
         </div>
         <nav class="footer__column footer__column_content_info">
           <h3 class="footer__column-heading">О Практикуме</h3>
